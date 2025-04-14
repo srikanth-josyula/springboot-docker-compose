@@ -1,5 +1,8 @@
 # Sample SpringBoot Docker Compose Example
 
+# NOTE:
+<b>With Docker version v20.10, and later, Docker Compose has been integrated as a Docker plugin and no longer requires the dash (`docker-compose`). Instead, the correct command syntax is: `docker compose`. This is the new and recommended syntax, where the compose part is a sub-command of docker, so there is no dash between docker and compose.</b>
+
 ## Docket Compose Guide
 * Docker Compose is a tool designed for defining and running multi-container Docker applications. 
 * With Docker Compose, you can start, stop, and scale your entire application stack with just a few commands, streamlining both the development and deployment processes.
